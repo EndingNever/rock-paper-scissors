@@ -3,22 +3,42 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2.2rem;
-    outline: 2px solid gray;
+    outline: 2px solid hsl(217, 16%, 45%);
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-    padding: 12px;
-    width: 80%;
-    .hands{
-      outline: 2px solid red;
+    padding: 20px;
+    width: 75%;
+    .hands {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
     }
-    .player-score{
-      border: 2px solid green;
+    .player-score {
+      background-color: hsl(217, 61%, 90%);
+      border-radius: 5px;
+      color: hsl(229, 64%, 46%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4px;
+      width: 20%;
+      p{
+        font-size: 12px;
+      }
+      p,
+      h1 {
+        margin: 0px;
+      }
+      .score-number {
+        color: hsl(229, 25%, 31%);
+      }
     }
-    h3{
+    h3 {
       color: white;
       line-height: 0.8;
-      margin:0px;
+      margin: 0px;
     }
   }
 }

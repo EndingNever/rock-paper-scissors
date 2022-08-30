@@ -11,7 +11,8 @@ const Score = () => {
         <h3>SCISSORS</h3>
       </div>
       <div className="player-score">
-        <p>score</p>
+        <p>SCORE</p>
+        <h1 className='score-number'>12</h1>
       </div>
     </div>
   );
