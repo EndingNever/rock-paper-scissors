@@ -1,7 +1,7 @@
 import './App.css';
-import PlayField from './components/PlayField';
+import PlayField from './components/PlayField/PlayField';
 import Score from './components/Score';
-import Rules from './components/Rules';
+import Rules from './components/rules/Rules';
 
 function App() {
   return (

@@ -1,0 +1,35 @@
+.rulesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 0px;
+  p {
+    border-radius: 8px;
+    outline: 2px solid hsl(217, 17%, 73%);
+    margin: 0px;
+    letter-spacing: 3px;
+    padding: 0.6rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .showRules {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    .closeButton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 3vh;
+    }
+  }
+}
