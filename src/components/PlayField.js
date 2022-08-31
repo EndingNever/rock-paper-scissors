@@ -4,7 +4,7 @@ import style from './Styles.module.css'
 const PlayField = () => {
   return (
     <div className={style.playfield}>
-      <img src={process.env.PUBLIC_URL + "/images/bg-triangle.svg"} alt="" />
+      <img className={style.bgImage} src={process.env.PUBLIC_URL + "/images/bg-triangle.svg"} alt="" />
       {/* Rock */}
       <div className={style.rockGradient}>
         <div className={style.rockContainer}>

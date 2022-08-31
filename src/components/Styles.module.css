@@ -9,37 +9,22 @@
 
 .playfield img {
   width: auto;
-  max-width: 40%;
+  max-width: 60%;
 }
 
 .rockContainer {
   height: 100%;
   width: 100%;
-  /* position: absolute;
-  height: 6rem;
-  width: 6rem;
-  top: 52vh;
-  left: 38vw; */
 }
 
 .paperContainer {
   height: 100%;
   width: 100%;
-  /* position: absolute;
-  height: 6rem;
-  width: 6rem;
-  top: 38vh;
-  left: 20vw; */
 }
 
 .scissorContainer {
   height: 100%;
   width: 100%;
-  /* height: 6rem;
-  width: 6rem;
-  top: 38vh;
-  right: 20vw;
-  position: absolute; */
 }
 
 .circle {
@@ -50,7 +35,6 @@
   height: 100%;
   width: 100%;
   background-color: white;
-  /* z-index: 1; */
 }
 
 .rockGradient {
@@ -66,7 +50,7 @@
   position: absolute;
   height: 6rem;
   width: 6rem;
-  top: 52vh;
+  top: 55vh;
 }
 
 .paperGradient {
@@ -80,8 +64,8 @@
   position: absolute;
   height: 6rem;
   width: 6rem;
-  top: 38vh;
-  left: 20vw;
+  top: 34vh;
+  left: 10vw;
 }
 
 .scissorGradient {
@@ -94,7 +78,7 @@
   border-radius: 50%;
   height: 6rem;
   width: 6rem;
-  top: 38vh;
-  right: 20vw;
+  top: 34vh;
+  right: 10vw;
   position: absolute;
 }
