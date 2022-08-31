@@ -1,0 +1,12 @@
+.playfield {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  height: 70vh;
+  img {
+    height: auto;
+    width: 50vw;
+  }
+}
