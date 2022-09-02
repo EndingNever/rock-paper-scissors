@@ -7,7 +7,7 @@ const Rules = () => {
   const showRulesHandler = () => {
     setShowRules(!showRules);
   }
-  
+
   return (
     <div className={style.rulesContainer}>
       <p onClick={showRulesHandler}>RULES</p>

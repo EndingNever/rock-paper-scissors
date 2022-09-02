@@ -50,7 +50,7 @@
   position: absolute;
   height: 6rem;
   width: 6rem;
-  top: 55vh;
+  top: 52vh;
 }
 
 .paperGradient {
@@ -64,7 +64,7 @@
   position: absolute;
   height: 6rem;
   width: 6rem;
-  top: 34vh;
+  top: 29vh;
   left: 10vw;
 }
 
@@ -78,7 +78,7 @@
   border-radius: 50%;
   height: 6rem;
   width: 6rem;
-  top: 34vh;
+  top: 29vh;
   right: 10vw;
   position: absolute;
 }
