@@ -1,8 +1,12 @@
 import React from 'react';
+import { useContext } from 'react';
+import ScoreContext from '../store/score-context';
 import './Score.scss'
 
 
 const Score = () => {
+  const scoreCtx = useContext(ScoreContext);
+
   return (
     <div className='score-container'>
       <div className="hands">
@@ -12,7 +16,7 @@ const Score = () => {
       </div>
       <div className="player-score">
         <p>SCORE</p>
-        <h1 className='score-number'>0</h1>
+        <h1 className='score-number'>{scoreCtx.score}</h1>
       </div>
     </div>
   );

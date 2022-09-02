@@ -4,6 +4,8 @@ const ScoreContext = createContext({ // createContext takes an initial state val
   score: 0,
   playerSelectedHand: false,
   playerChoice: "",
+  playerWon: () => {},
+  playerLost: () => {},
 })
 
 export function ScoreContextProvider(props) {
@@ -33,6 +35,8 @@ export function ScoreContextProvider(props) {
     playerSelectedHand: playerChoseHand,
     playerChoice: playerSelect,
     setPlayerHand: setPlayerHand,
+    playerWon: playerWon,
+    playerLost: playerLost,
   }}>
     {props.children}
   </ScoreContext.Provider>
