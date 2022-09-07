@@ -4,14 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ScoreContextProvider } from './store/score-context';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ScoreContextProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </ScoreContextProvider>
+  <BrowserRouter>
+    <ScoreContextProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </ScoreContextProvider>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

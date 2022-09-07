@@ -7,15 +7,11 @@
   height: 70vh;
 }
 
-.playfield img {
-  width: auto;
-  max-width: 60%;
-}
-
 .handContainer {
   height: 100%;
   width: 100%;
 }
+
 
 .circle {
   display: flex;
@@ -71,4 +67,9 @@
   top: 29vh;
   right: 10vw;
   position: absolute;
+}
+
+.playerHandPosition {
+  top: 40vh;
+  left: 10vw;
 }
